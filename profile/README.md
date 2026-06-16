@@ -13,8 +13,9 @@ We build the boring parts of AI agent systems. The parts that run at 3am.
 
 | Project | What | Install |
 |---------|------|---------|
-| [Freeport](https://github.com/reallyartificial/freeport) | LLM Gateway — routing, caching, guardrails | `docker pull reallyartificial/freeport` |
-| [Engram](https://github.com/reallyartificial/engram) | Agent Memory — retain, recall, reflect | `npm install engram` |
+| [Freeport](https://github.com/reallyartificial/freeport) | LLM Gateway — routing, caching, guardrails | `npx @reallyartificial/freeport` |
+| [Engram](https://github.com/reallyartificial/engram) | Agent Memory — retain, recall, reflect | `npx engram-init` |
+| [Approval Protocol](https://github.com/reallyartificial/approvalprotocol) | Human-in-the-loop approval for agent actions | `npm install approval-protocol` |
 | [mcp-jest](https://github.com/reallyartificial/mcp-jest) | MCP server testing framework | `npm install mcp-jest` |
 
 Each project works standalone. They're better together.
